@@ -1,0 +1,26 @@
+/* Example of adapted CSS for Odoo */
+.o_website_light_mode h1,
+.o_website_light_mode h2,
+.o_website_light_mode h3,
+.o_website_light_mode h4,
+.o_website_light_mode h5,
+.o_website_light_mode h6,
+.o_website_light_mode p {
+    color: #000;
+}
+
+.o_website_light_mode .btn-primary {
+    background-color: #000;
+    color: #fff;
+}
+
+.o_website_light_mode .btn-primary:hover {
+    background-color: #57ffdc;
+    color: #000;
+}
+
+.o_website_light_mode .navbar-light .navbar-toggler {
+    filter: invert(1);
+}
+
+/* Add other selectors and properties as needed */

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <template id="theme_apexive_main_header" name="Apexive Main Header" inherit_id="website.layout">
+    <xpath expr="//header" position="replace">
+
+      <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navigation-code nav-bar w-nav">
+        
+      <header class="nav-bar-wrapper">
+        <style>
+<!--           .a{
+          display: inline-block;
+  background-image: linear-gradient(#000 0 0);
+  background-position: left bottom; /* OR left bottom*/
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s;
+          }
+          .a:hover {
+  background-size: 100% 2px;
+} -->
+.a{
+  decoration:none;
+}
+        </style>
+        <a href="index.html" aria-current="page" class="navbar-logo-link w-nav-brand w--current">
+          <img src="/apexive_website/static/src/img/new-logo.svg" loading="lazy" alt="" class="logo-img"/>
+        </a>
+        <nav role="navigation" class="nav-menu w-nav-menu">
+          <div class="navbar-menu-left">
+            <a href="/#approach" class="navbar-link w-inline-block">
+              <div class="nav-link a">01.<br/>Approach</div>
+              <div class="nav-underline" style=""></div>
+            </a>
+            <a href="/#expertise" class="navbar-link w-inline-block">
+              <div class="nav-link a">02.<br/>Expertise</div>
+              <div class="nav-underline"></div>
+            </a>
+            <a href="/#projects" class="navbar-link w-inline-block">
+              <div class="nav-link a">03.<br/>Work</div>
+              <!-- <div class="nav-underline"></div> -->
+            </a>
+            <a href="blog.html" class="navbar-link w-inline-block">
+              <div class="nav-link a">04.<br/>Blog</div>
+              <!-- <div class="nav-underline"></div> -->
+            </a>
+            <a href="aboutus.html" class="navbar-link w-inline-block">
+              <div class="nav-link a">05.<br/>Company</div>
+              <!-- <div class="nav-underline"></div> -->
+            </a>
+            <div class="navbar-mobile-button-wrapper">
+              <a href="contact.html" class="button-black w-button">Get in touch</a>
+            </div>
+          </div>
+        </nav>
+        <div class="navbar-menu-right">
+          <div class="mode-wrapper">
+            <a href="#" class="light-mode-button w-inline-block">
+              <img src="/apexive_website/static/src/img/icons8-sun-32.png" loading="lazy" alt="" class="light-mode-icon"/>
+            </a>
+            <a href="#" class="dark-mode-button w-inline-block">
+              <img src="/apexive_website/static/src/img/Dark-mode.svg" loading="lazy" width="18" alt="Dark mode Apex Labs website" class="dark-mode-icon"/>
+            </a>
+          </div>
+          <div class="top-button">
+            <a href="contact.html" class="button-black w-button">LET'S TALK</a>
+          </div>
+          <div class="nav-menu-button w-nav-button">
+            <div class="menu-icon">
+              <div class="icon-open"><img src="/apexive_website/static/src/img/burger.svg" loading="lazy" width="24" height="24" alt="" class="image-17"/></div>
+              <div class="icon-close"></div>
+            </div>
+          </div>
+        </div>
+      </header>
+      </div>
+
+
+    </xpath>
+  </template>
+</odoo>

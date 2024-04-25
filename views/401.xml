@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <template id="401_protected_page" name="Protected Page">
+    <t t-call="website.layout">
+      <div id="wrap" class="oe_structure oe_empty">
+        <div class="utility-page-wrap">
+          <div class="utility-page-content w-password-page w-form">
+            <form id="password_form" t-attf-action="/password_check#id={{ request.session.db }}" method="post">
+              <img src="https://d3e54v103j8qbb.cloudfront.net/static/utility-lock.ae54711958.svg" alt="Lock Icon"/>
+              <h2>Protected Page</h2>
+              <label for="password">Password</label>
+              <input t-attf-class="w-password-page w-input" type="password" id="password" name="password" placeholder="Enter your password"/>
+              <input type="submit" value="Submit" class="w-password-page w-button"/>
+              <div class="w-password-page w-form-fail">
+                <div>Incorrect password. Please try again.</div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </t>
+  </template>
+</odoo>

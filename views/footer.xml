@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <template id="theme_apexive_main_footer" name="Apexive Main Footer" inherit_id="website.layout">
+    <xpath expr="//footer" position="replace">
+      <footer>
+        <div class="container large footer w-container">
+          <div class="footer-grid-old">
+            <div class="say-hello-wrapper">
+              <a href="contact.html" class="say-hello-button w-inline-block">
+                <h2 class="footer-title">Say hello</h2>
+                <div class="say-hello-underline"></div>
+              </a>
+              <div class="footer-info">
+                <div class="space-small"></div>
+                <p class="footer-text">Apexive is a rapid software development agency that turns bold ideas into future-proof tech products—in weeks, not months.</p>
+                <a rel="noreferrer" href="https://portal.apexive.com/r/S8E" class="underlined-link w-inline-block">
+                  <div>Company deck</div>
+                </a>
+                <div class="paragraphh">
+                  Amsterdam • Prague • Montreal • Los Angeles<br/>
+                  <a target="_blank" href="mailto:hello@apexive.com?subject=New%20request" class="footer-link">hello@apexive.com</a>
+                </div>
+              </div>
+            </div>
+            <div class="footer-nav">
+              <a href="/#approach" class="footer-title-navlink">Approach</a>
+              <a href="/#expertise" class="footer-title-navlink">Expertise</a>
+              <a href="/#projects" class="footer-title-navlink">Work</a>
+              <a href="blog.html" class="footer-title-navlink">Blog</a>
+              <a href="contact.html" class="footer-title-navlink">Contact</a>
+              <a href="aboutus.html" class="footer-title-navlink">Company</a>
+              <a href="career.html" class="footer-title-navlink">Career</a>
+            </div>
+            <div class="blog-footer">
+              <h2 class="footer-title">Latest Insights</h2>
+              <!-- Dynamic content for latest insights will go here -->
+            </div>
+            <div class="social-wrapper">
+              <div class="social-icons-wrapper">
+                <a href="http://github.com/djangoflow" target="_blank" class="icon-link w-inline-block">
+                  <img src="/apexive_website/static/src/img/GitHub-Mark-Light-64px.png" alt="Github Icon Apex Labs development agency" class="s-icon"/>
+                </a>
+                <a href="https://www.linkedin.com/company/apexlabs/" target="_blank" class="icon-link w-inline-block">
+                  <img src="/apexive_website/static/src/img/linkedin-icon.png" alt="Linkedin icon" class="s-icon"/>
+                </a>
+                <!-- Additional social icons here -->
+              </div>
+              <!-- Clutch.co widget or other integrations here -->
+              <a href="https://www.linkedin.com/company/apexlabs" target="_blank" class="icon-link w-inline-block">
+                <img src="/apexive_website/static/src/img/appfutura-badge.png" alt="Appfutura badge" class="s-icon award"/>
+              </a>
+            </div>
+            <div class="credit-text">
+              © 2023 <strong>Apexive.com</strong> all rights reserved.
+            </div>
+          </div>
+        </div>
+      </footer>
+    </xpath>
+  </template>
+</odoo>

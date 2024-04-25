@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="website_about_us_page" name="About Us Page">
+        <t t-call="website.layout">
+            <t t-set="additional_head">
+                <link rel="stylesheet" type="text/css" href="/apexive_website/static/src/css/custom_styles.css"/>
+            </t>
+            <div class="oe_structure">
+                <section class="about-us-header">
+                    <h1>Special forces of software development</h1>
+                    <p>Give entrepreneurs and scaled companies access to the latest technologies that never fail to support business objectives now and in the future at the best price and in the shortest time.</p>
+                </section>
+                <section class="our-mission">
+                    <h2>Mission</h2>
+                    <p>Being founders ourselves, we act as the technical cofounder who provides cutting-edge technology and mitigates technological risks.</p>
+                    <img src="/apexive_website/static/src/img/IMG_4556-1.jpg" alt="coding &amp; kitesurfing" class="about-us-img" />
+                    <img src="/apexive_website/static/src/img/62829865e1b0c60d3e8a7b68_thai-offsite-1-1.jpeg" alt="annual team offsite meeting in Thailand" class="about-us-img" />
+                </section>
+                <section class="our-team">
+                    <h2>Meet Apexers</h2>
+                    <p>We strive to provide Apexers with the best remote working conditions, focused on stimulating their professional and personal growth.</p>
+                    <div class="team-members">
+                        <div class="team-member">
+                            <img src="/apexive_website/static/src/img/DSCF8811.jpg" alt="Alex Yushin CTO" class="team-member-img"/>
+                            <div class="member-info">
+                                <h3>Alex Yushin</h3>
+                                <p>CEO &amp; CTO of Apexive</p>
+                            </div>
+                        </div>
+                        <!-- Additional team members can be added here -->
+                    </div>
+                </section>
+                <section class="client-testimonials">
+                    <h2>What do our clients say</h2>
+                    <div class="testimonials">
+                        <blockquote>
+                            <p>"Thanks to Apexive's efforts, the app has excellent ratings. They've also enabled the company to successfully generate revenue through their newly established paid subscription feature."</p>
+                            <cite>Jesse Wilson, Founder of Action App</cite>
+                        </blockquote>
+                        <!-- More testimonials can be added here -->
+                    </div>
+                </section>
+                <section class="contact-us">
+                    <h2>Let's talk about your project!</h2>
+                    <a href="/contact_us" class="btn btn-primary">Contact Us</a>
+                </section>
+            </div>
+        </t>
+    </template>
+</odoo>

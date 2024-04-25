@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <template id="404_error_page" name="404 Error Page">
+    <t t-call="website.layout">
+
+            <t t-set="additional_head">
+                <link rel="stylesheet" type="text/css" href="/apexive_website/static/src/css/custom_styles.css"/>
+            </t>
+
+      <div class="oe_structure" style="background-color:black">
+        <section class="error">
+          <div class="container">
+            <div class="w-layout-blockcontainer container---1440px w-container">
+              <div class="_2-columns">
+                <div class="content">
+                  <h2 class="heading-2---64-88">Error 404</h2>
+                  <div class="space-16px"></div>
+                  <p class="paragraph-24---24-32">Sorry, we couldn&#x27;t find what you&#x27;re looking for.</p>
+                  <div class="space-32"></div>
+                  <a href="index.html" class="button-new w-button">Back to Home</a>
+                </div>
+                <div class="image-width-100">
+                  <img src="/apexive_website/static/src/img/Image-Wrapper.png" loading="lazy" width="1440" height="783" alt="" srcset="/apexive_website/static/src/img/Image-Wrapper-p-500.png 500w, /apexive_website/static/src/img/Image-Wrapper-p-800.png 800w, /apexive_website/static/src/img/Image-Wrapper-p-1080.png 1080w, /apexive_website/static/src/img/Image-Wrapper.png 1334w" sizes="(max-width: 479px) 96vw, (max-width: 767px) 97vw, (max-width: 991px) 98vw, (max-width: 1279px) 42vw, (max-width: 1439px) 43vw, 624.0198364257812px" class="image" />
+                  </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </t>
+  </template>
+</odoo>

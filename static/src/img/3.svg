@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="220" viewBox="0 0 210 220">
+  <g id="Сгруппировать_46" data-name="Сгруппировать 46" transform="translate(-1053 -1629)">
+    <g id="Сгруппировать_15" data-name="Сгруппировать 15" transform="translate(-155 -813)">
+      <g id="Эллипс_5" data-name="Эллипс 5" transform="translate(1208 2442)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1">
+        <circle cx="105" cy="105" r="105" stroke="none"/>
+        <circle cx="105" cy="105" r="104.5" fill="none"/>
+      </g>
+      <g id="Эллипс_6" data-name="Эллипс 6" transform="translate(1267 2559)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1" stroke-dasharray="5">
+        <circle cx="46.5" cy="46.5" r="46.5" stroke="none"/>
+        <circle cx="46.5" cy="46.5" r="46" fill="none"/>
+      </g>
+    </g>
+    <g id="Сгруппировать_27" data-name="Сгруппировать 27" transform="translate(220)">
+      <circle id="Эллипс_12" data-name="Эллипс 12" cx="10" cy="10" r="10" transform="translate(931 1829)" fill="#fff"/>
+      <g id="Сгруппировать_26" data-name="Сгруппировать 26" transform="translate(-375 -813)">
+        <circle id="Эллипс_5-2" data-name="Эллипс 5" cx="105" cy="105" r="105" transform="translate(1208 2442)" fill="none"/>
+        <circle id="Эллипс_6-2" data-name="Эллипс 6" cx="46.5" cy="46.5" r="46.5" transform="translate(1267 2559)" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

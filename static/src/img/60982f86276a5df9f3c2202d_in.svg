@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-in">
+      <rect width="20" height="20"/>
+    </clipPath>
+  </defs>
+  <g id="in" clip-path="url(#clip-in)">
+    <g id="linkedin-logo" transform="translate(2.569 2.93)">
+      <path id="LinkedIn" d="M14.861,18.264v5.494H11.676V18.632c0-1.288-.461-2.167-1.614-2.167a1.743,1.743,0,0,0-1.634,1.165,2.18,2.18,0,0,0-.106.777v5.351H5.136s.043-8.682,0-9.582H8.322v1.358l-.021.031h.021v-.031a3.163,3.163,0,0,1,2.871-1.583C13.29,13.952,14.861,15.321,14.861,18.264ZM1.8,9.558a1.66,1.66,0,1,0-.042,3.312h.021A1.661,1.661,0,1,0,1.8,9.558ZM.189,23.759H3.374V14.177H.189Z" transform="translate(0 -9.558)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
