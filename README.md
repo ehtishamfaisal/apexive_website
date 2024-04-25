@@ -10,7 +10,7 @@ The Apexive Theme is a sleek and modern eCommerce theme, converted from Webflow,
 
 ## Screenshots
 
-![Theme Screenshot](static/description/images/images/theme_screenshot.png)
+![Theme Screenshot](static/description/images/theme_screenshot.png)
 
 ## Description
 
@@ -27,8 +27,8 @@ This theme is designed to be user-friendly and easily adjustable:
 - **Desktop and Mobile Views**: Adjust layouts and elements to ensure the best display on all devices.
 - **Shop and Product Pages**: Styled to enhance product displays and improve customer conversion rates.
 
-![Desktop View](static/description/images/images/layout_screenshot.jpg)
-![Mobile View](static/description/images/images/overview_screenshot.jpg)
+![Desktop View](static/description/images/layout_screenshot.jpg)
+![Mobile View](static/description/images/overview_screenshot.jpg)
 
 ## Additional Information
 
