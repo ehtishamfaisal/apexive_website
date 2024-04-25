@@ -1,6 +1,6 @@
 # Apexive Theme for Odoo
 
-The Apexive Theme is a sleek and modern eCommerce theme, converted from Webflow, designed specifically for Odoo platforms. This theme brings a sophisticated visual appeal and an optimized eCommerce experience to your online store.
+The Apexive Theme is a sleek theme, converted from Webflow, designed specifically for Odoo platforms. This theme brings a sophisticated visual appeal and an optimized eCommerce experience to your online store.
 
 ## Features
 
