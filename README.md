@@ -25,10 +25,9 @@ Apexive Theme is not just about aesthetics; it's built to improve functionality 
 This theme is designed to be user-friendly and easily adjustable:
 
 - **Desktop and Mobile Views**: Adjust layouts and elements to ensure the best display on all devices.
-- **Shop and Product Pages**: Styled to enhance product displays and improve customer conversion rates.
 
-![Desktop View](static/description/images/layout_screenshot.jpg)
-![Mobile View](static/description/images/overview_screenshot.jpg)
+![Desktop View](static/description/images/layout_screenshot.png)
+![Mobile View](static/description/images/overview_screenshot.png)
 
 ## Additional Information
 
